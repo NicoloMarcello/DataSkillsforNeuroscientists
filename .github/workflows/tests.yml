@@ -52,6 +52,12 @@ jobs:
         cd python 
         python CreateNWB.py
 
+    - name: Run tests in test.sh
+      shell: bash
+      run: |
+        # Rerun the tests; all requirements should be installed now, and this will test the test.sh script itself.
+        ./test.sh 
+
     - name: Final information on installed packages
       run: |
         echo "Installed packages:"
