@@ -4,6 +4,7 @@
 numpy
 matplotlib
 mat73 # package for importing MATLAB mat v7.3 files
+ruff
 
 pynwb==2.5.0 # These are pinned so we can test with the not recently updated nwbwidgets...
 hdmf==3.12.2
