@@ -1,6 +1,10 @@
+# This is the requirements file for Python 3.12 and lower, which includes some 
+# packages (nwbwidgets) that may not yet be compatible with Python 3.13 or greater.
+
 numpy
 matplotlib
 mat73 # package for importing MATLAB mat v7.3 files
+ruff
 
 pynwb==2.5.0 # These are pinned so we can test with the not recently updated nwbwidgets...
 hdmf==3.12.2

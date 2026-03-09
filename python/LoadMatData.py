@@ -114,7 +114,7 @@ if __name__ == "__main__":
     plt.ylabel("PCA dF/F")
 
     for index in range(len(pca_dff)):
-        plt.plot(pca_dff[index] + index * -10, label=f"PC {index+1}")
+        plt.plot(pca_dff[index] + index * -10, label=f"PC {index + 1}")
 
     plt.figure()
     plt.xlabel("Time (s)")
